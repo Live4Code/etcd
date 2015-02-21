@@ -1,3 +1,5 @@
+#!/bin/sh
+
 HOST_IP=$(echo $HOST_IP | sed 's|\[||g')
 HOST_IP=$(echo $HOST_IP | sed 's|\]||g')
 HOST_IP=$(echo $HOST_IP | sed -r "s|(')||g")
